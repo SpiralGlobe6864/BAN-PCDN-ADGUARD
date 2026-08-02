@@ -12,6 +12,7 @@
 @@||s.click.taobao.com^$important
 @@||weixin.qq.com^$important
 @@||wl.jd.com^$important
+@@||api.live.bilibili.com/xlive/$important
 
 ! ---------- 精确域名 ----------
 ||atm.youku.com^
