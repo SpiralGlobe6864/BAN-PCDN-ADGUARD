@@ -14,6 +14,7 @@
 @@||wl.jd.com^$important
 @@||api.live.bilibili.com/xlive/$important
 @@||github.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
+@@||raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
 @@||wget.la/https://raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
 
 ! ---------- 精确域名 ----------
