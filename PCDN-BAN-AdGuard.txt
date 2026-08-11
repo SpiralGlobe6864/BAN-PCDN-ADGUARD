@@ -16,7 +16,7 @@
 @@||github.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
 @@||raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
 @@||wget.la/https://raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
-
+@@||nd-static.bdstatic.com^$domain=pan.baidu.com,important
 ! ---------- 精确域名 ----------
 ||atm.youku.com^
 ||bsccdn.net^
