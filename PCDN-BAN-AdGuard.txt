@@ -1,4 +1,4 @@
-﻿! Title: PCDN屏蔽
+! Title: PCDN屏蔽
 ! Version: 20260811
 
 
@@ -13,10 +13,8 @@
 @@||weixin.qq.com^$important
 @@||wl.jd.com^$important
 @@||api.live.bilibili.com/xlive/$important
-@@||github.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
-@@||raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
-@@||wget.la/https://raw.githubusercontent.com/SpiralGlobe6864/BAN-PCDN-ADGUARD/$important
 @@||nd-static.bdstatic.com^$domain=pan.baidu.com,important
+
 ! ---------- 精确域名 ----------
 ||atm.youku.com^
 ||bsccdn.net^
@@ -167,7 +165,7 @@
 ||*p2pvod*^
 ||*pagead*^
 ||*pangolin*^
-||*pcdn*^
+||*pcdn*^$denyallow=github.com|githubassets.com|github.io|githubusercontent.com|gh-proxy.org|ghproxy.com|ghproxy.net|gh.con.sh|gh.ddlc.top|gh.llkk.cc|gitclone.com|github.com.cnpmjs.org|raw.fastgit.org|raw.staticdn.net|raw.sevencdn.com|git.yumenaka.net|github.ur1.fun|github.91chi.fun|git.xfj0.cn|git.886.be|github.moeyy.xyz|wget.la|ghfast.top|gh.catmak.name|jsdelivr.net|g.blfrp.cn|gh.ddlc.top|cors.isteed.cc|gh.h233.eu.org|raw.ihtw.moe|gh.idayer.com
 ||*pdata*^
 ||*peercdn*^
 ||*pkoplink*^
