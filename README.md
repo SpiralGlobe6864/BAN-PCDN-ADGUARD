@@ -1,2 +1,2 @@
 # BAN-PCDN-ADGUARD
-用于adguard屏蔽pcdn
+用于ADGuard及ADGuard HOME屏蔽网页pcdn
