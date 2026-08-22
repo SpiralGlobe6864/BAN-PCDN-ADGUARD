@@ -96,7 +96,6 @@
 ||*7niu*^
 ||*awemeughun*^
 ||*bcache*^
-||*bdstatic*^$denyallow=pan.baidu.com|tieba.baidu.com
 ||*bdxiguavod*^
 ||*bsccdn*^
 ||*bugly*^
