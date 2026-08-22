@@ -1,19 +1,16 @@
-! Title: PCDN屏蔽
-! Version: 20260811
+﻿! Title: PCDN屏蔽
+! Version: 20260822
 
 
 ! ---------- 白名单 ----------
 @@||aedns.weixin.qq.com^$important
 @@||g.live.com^$important
 @@||ipassport.ele.me^$important
-@@||ipcdn.apple.com^$important
 @@||mask.apple-dns.net^$important
 @@||mask.icloud.com^$important
 @@||s.click.taobao.com^$important
 @@||weixin.qq.com^$important
 @@||wl.jd.com^$important
-@@||api.live.bilibili.com/xlive/$important
-@@||nd-static.bdstatic.com^$domain=pan.baidu.com,important
 
 ! ---------- 精确域名 ----------
 ||atm.youku.com^
@@ -99,7 +96,7 @@
 ||*7niu*^
 ||*awemeughun*^
 ||*bcache*^
-||*bdstatic*^
+||*bdstatic*^$denyallow=pan.baidu.com|tieba.baidu.com
 ||*bdxiguavod*^
 ||*bsccdn*^
 ||*bugly*^
@@ -165,7 +162,7 @@
 ||*p2pvod*^
 ||*pagead*^
 ||*pangolin*^
-||*pcdn*^$denyallow=github.com|githubassets.com|github.io|githubusercontent.com|gh-proxy.org|ghproxy.com|ghproxy.net|gh.con.sh|gh.ddlc.top|gh.llkk.cc|gitclone.com|github.com.cnpmjs.org|raw.fastgit.org|raw.staticdn.net|raw.sevencdn.com|git.yumenaka.net|github.ur1.fun|github.91chi.fun|git.xfj0.cn|git.886.be|github.moeyy.xyz|wget.la|ghfast.top|gh.catmak.name|jsdelivr.net|g.blfrp.cn|gh.ddlc.top|cors.isteed.cc|gh.h233.eu.org|raw.ihtw.moe|gh.idayer.com
+||*pcdn*^$denyallow=ipcdn.apple.com|github.com|githubassets.com|github.io|githubusercontent.com|gh-proxy.org|ghproxy.com|ghproxy.net|gh.con.sh|gh.ddlc.top|gh.llkk.cc|gitclone.com|github.com.cnpmjs.org|raw.fastgit.org|raw.staticdn.net|raw.sevencdn.com|git.yumenaka.net|github.ur1.fun|github.91chi.fun|git.xfj0.cn|git.886.be|github.moeyy.xyz|wget.la|ghfast.top|gh.catmak.name|jsdelivr.net|g.blfrp.cn|gh.ddlc.top|cors.isteed.cc|gh.h233.eu.org|raw.ihtw.moe|gh.idayer.com
 ||*pdata*^
 ||*peercdn*^
 ||*pkoplink*^
@@ -205,7 +202,7 @@
 ||*wsglw*^
 ||*xcdn*^
 ||*xinqiucc*^
-||*xlive*^
+||*xlive*^$denyallow=api.live.bilibili.com
 ||*xxpkg*^
 ||*xycdn*^
 ||*xycloud*^
@@ -222,5 +219,4 @@
 ||t7z.cupid.ptqy.gitv.tv^$important
 ||gdt.qq.com^
 ||cm.l.qq.com^
-
 
